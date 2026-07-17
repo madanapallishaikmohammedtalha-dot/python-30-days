@@ -100,7 +100,7 @@ while True:
     print("3.Search Student ")
     print("4.Update Course")
     print("5.Delete Student")
-    print("6.quit")
+    print("6.quit ")
 
     choice=input("Enter your choice(1-5):")
     if choice == "1":

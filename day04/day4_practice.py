@@ -12,7 +12,7 @@ rows = cursor.fetchall()
 print("----- Retrieved Students -----")
 for row in rows:
     # Each row is a tuple: (name, age, course)
-    print(f"Name: {row[0]} | Age: {row[1]} | Course: {row[2]}")
+    print(f"Name: {row[0]} |  Age: {row[1]} | Course: {row[2]}")
 
 # 4. Close (No need to commit since we only read!)
 conn.close()

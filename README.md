@@ -1,15 +1,16 @@
-# Python 30-Day Challenge
+Tuition Management System
+A professional desktop application built with Python, PySide6, and SQLite to help tuition centers manage student records, fees, and revenue.
 
-A 30-day Python learning journey building a Tuition Management System desktop app.
-
-## Progress
-
-- Day 1: Python setup, variables, data types, I/O
-- Day 2: Functions, conditions, loops, lists, dicts
-- Day 3: Object-Oriented Programming (Student class)
-- Day 4: SQLite and full CRUD operations
-- Day 5: Git and GitHub workflow
-
-## Stack
-
-Python 3.11+, SQLite, PySide6 (from Day 6), Git/GitHub
+Key Features
+Student Management: Add, list, search, update, and delete student profiles.
+Financial Tracking: Track fees allotted and monitor total revenue.
+Privacy Mode: Hide/Show revenue functionality for public screen viewing.
+MVC Architecture: Built with a clean separation of data, logic, and GUI.
+Tech Stack
+Language: Python 3.11+
+Database: SQLite
+GUI: PySide6 (Qt)
+How to Run
+Clone the repository.
+Install dependencies: pip install PySide6
+Run the application: python tuition_system/main.py
